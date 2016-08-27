@@ -385,7 +385,7 @@ input[type="submit"] {
 }
 
 .wrapper h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Punk Dots', 'Open Sans', sans-serif;
 	font-size: 48px;
 	color: #333;
 	line-height: 56px;
@@ -861,7 +861,7 @@ body .wrapper .wpb_button.wpb_btn-transparent.square .circle {
 }
 
 .circle {
-	display: block; 
+	display: block;
 	position: absolute;
 	background: rgba(255,255,255,0.5);
 	border-radius: 100%;
@@ -3253,7 +3253,7 @@ a.share-button {
 	color: #fff;
 }
 
-a.share-button:hover, 
+a.share-button:hover,
 a.share-button:focus {
 	color: #fff;
 	text-decoration: none;
@@ -4574,7 +4574,7 @@ body.home .content .sidebar-right-pull {
 
 .blogpost-twitter.widget .tweet_text a:hover {
 	color: #cc0000;
-	
+
 }
 
 .blogpost-twitter.widget ul.tweet_list li .tweet_text_container > a,
@@ -7194,4 +7194,10 @@ div.scrollableArea {
 
 body.admin-bar #buy-now-ribbon {
 	top: 24px;
+}
+
+@font-face{
+    font-family: 'Punk Dots';
+    src: url('fonts/punk-dots.woff') format('woff'),
+         url('fonts/punk-dots.ttf') format('truetype');
 }
